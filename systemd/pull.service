@@ -1,0 +1,7 @@
+[Unit]
+Description=Pull repository
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/rtsp-exporter
+ExecStart=git pull

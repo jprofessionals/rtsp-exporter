@@ -1,0 +1,7 @@
+[Unit]
+Description=Export image
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/rtsp-exporter
+ExecStart=/opt/rtsp-exporter/export.sh
